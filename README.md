@@ -1,6 +1,7 @@
 # Retrieval-Augmented Generation (RAG) System for PDF Question Answering
 
-Welcome to the Retrieval-Augmented Generation (RAG) System project! This advanced system enables users to upload PDF documents and ask questions about their content. By combining document retrieval with powerful language generation models, it provides accurate, context-aware answers based on the uploaded files.
+Welcome to the Retrieval-Augmented Generation (RAG) System project! This advanced system enables users to upload PDF documents and ask questions about their content. By combining document retrieval with powerful language generation models, it provides accurate, context-aware answers based on the uploaded files. 
+
 
 ## Key Features
 
@@ -25,7 +26,7 @@ Welcome to the Retrieval-Augmented Generation (RAG) System project! This advance
   - **Remote Models:** `ChatGroq`
 
 ### 5. User Interaction
-- **Streamlit Interface:** An intuitive web interface for easy interaction.
+- **Console-Based Interface:** Users interact with the system through a simple command-line interface (CLI).
 - **Conversation Management:** Maintains session history to enable context-aware, multi-turn conversations.
 
 ### 6. Session and Document Management
@@ -48,25 +49,24 @@ Welcome to the Retrieval-Augmented Generation (RAG) System project! This advance
 ### Prerequisites
 Ensure you have the following installed:
 - Python 3.8+
-- Streamlit
 
 ### Installation
 1. Clone the repository and navigate to the project directory:
    ```bash
    git clone https://github.com/msa23003/RagifyQ-A.git
    cd your-repo-name
-  
+   ```
 2. Install the required dependencies:
-   
+   ```bash
    pip install -r requirements.txt
-   
+   ```
 
 ### Usage
-To launch the application:
+To launch the application, use the command-line interface:
 ```bash
-streamlit run app.py
-
-Once the app is running, you can upload PDFs, ask questions, and explore the system’s features through the user-friendly interface.
+python main.py
+```
+Once running, you can upload PDFs, ask questions, and explore the system’s features.
 
 
 
@@ -75,7 +75,6 @@ We welcome contributions to this project! Here’s how you can help:
 - Fork the repository.
 - Make your changes and ensure they align with the project’s goals.
 - Submit a pull request for review.
-
 
 
 ## License
@@ -91,4 +90,3 @@ This project was made possible thanks to the following technologies:
 - **ChatOllama** and **ChatGroq** for language model-based responses
 
 Special thanks to the creators of these tools and models for their incredible contributions to the open-source community!
-
